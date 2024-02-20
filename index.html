@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coworking</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header center">
+        <a class="header__image" href="/"><img src="imglanding/logo_landing.svg" alt="logo"></a>
+        <nav class="header__menu" id="header-menu">
+            <ul class="header__menu_content">
+                <li>
+                    <a class="menu-link" href="#overview">OVERVIEW</a>
+                </li>
+                <li>
+                    <a class="menu-link" href="#features">FEATURES</a>
+                </li>
+                <li>
+                    <a class="menu-link" href="#contact">CONTACT</a>
+                </li>
+                
+            </ul>
+            <div class="header__close">
+                <i class="ri-close-line"></i>
+            </div>
+        </nav>
+        <!--FOR SMALLER SCREENS -->
+        <div class="header__toggle">
+            <i class="ri-apps-2-line"></i>
+        </div>
+        <!--  -->
+    </header>
+
+    <div class="top center">
+        <section class="heading">
+            <h1 class="heading__big">Coworking</h1>
+            <p class="heading__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius voluptatibus aperiam maiores id, incidunt repellendus mollitia</p>
+            <button class="heading__button">Sign Up</button>
+        </section>
+    </div>
+
+    <section class="lorem center" id="overview">
+        <div class="lorem__section">
+            <div class="lorem__section_desc">
+                <h3 class="lorem__section_heading">Lorem ipsum dolor sit amet, consectetur</h3>
+                <p class="lorem__section_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo maiores accusamus dolorum maxime, quasi quis ab cum voluptatibus quo eveniet qui reprehenderit nesciunt dolor sed porro molestias. A officia et laboriosam, tenetur adipisci ex fugit consequatur quo ab corrupti vel.</p>
+                <a class="link" href="Learn More">Learn More</a>
+            </div>
+            
+            <div class="lorem__image">
+                <img class="lorem__image_pic" src="imglanding/photo1landign.jpg" alt="photo1landign">
+            </div>
+        </div> 
+    </section>
+
+    <section class="features center" id="features">
+        <h2 class="features__heading">Features</h2>
+        <div class="features__content">
+            <div class="feature">
+                <img class="feature__image" src="imglanding/features1.jpg" alt="features1">
+                <h4 class="feature__heading">Supports All Currencies and Cards</h4>
+                <p class="feature__text">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                <p class="feature__read">Read More</p>
+            </div>
+            <div class="feature">
+                <img class="feature__image" src="imglanding/manage.jpg" alt="manage">
+                <h4 class="feature__heading">Manage your expenses</h4>
+                <p class="feature__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo maiores accusamus</p>
+                <p class="feature__read">Read More</p>
+            </div>
+            <div class="feature">
+                <img class="feature__image" src="imglanding/perfect.jpg" alt="perfect">
+                <h4 class="feature__heading">Perfect software</h4>
+                <p class="feature__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo maiores accusamus</p>
+                <p class="feature__read">Read More</p>
+            </div>
+        </div>
+    </section>
+
+    <div>
+        <section class="stay center">
+            <div class="stay__block">
+                <h2 class="stay__block_heading">Stay focused on saving money</h2>
+                <p class="stay__block_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis ullam quia cumque, ipsa beatae voluptates dolore accusantium iure consequuntur, rem deleniti repudiandae quae necessitatibus recusandae earum provident alias quo reprehenderit! Itaque qui exercitationem </p>
+            </div>
+            <div class="stay__image">
+                <img src="imglanding/stay.jpg" alt="stay">
+            </div>
+        </section>
+    </div>
+    
+    <section class="contact center" id="contact">
+        <div class="contact__block">
+            <h2 class="contact__block_heading">Contacts</h2>
+            <p class="contact__block_text">Questions or concerns? Just fill out the form below and our support team will get back to you within 24 hours</p>
+        </div>
+        <div class="form ">
+            <form class="form__contact">
+                <div class="user__info">
+                    <input placeholder="First Name" class="box_name" type="text">
+                    <input placeholder="Last Name" class="box_name" type="text">
+                </div>
+                <input class="number_box" type="email" placeholder="Email">
+                <select class="number_box">
+                    <option value="Select Coworking">Select Coworking</option>
+                </select>
+                <button class="form__button">Submit Now</button>
+            </form>
+        </div>
+    </section>
+
+    <div class="footer center">
+        <footer class="footer__block">
+            <p>Copyright 2022 CoWo</p>
+        </footer>
+    </div>
+    
+    <a href="#" class="scroll-up" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <script src="./script.js"></script>
+</body>
+</html>
